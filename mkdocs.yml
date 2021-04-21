@@ -2,7 +2,7 @@ site_name: "Mon site avec MkDocs"
 
 nav:
   - Accueil: index.md
-  - Notebook : notebook.ipynb
+  - Notebook : Introduction-Le_BN_pour_explorer.ipynb
   - Python : python_script.py
 
 
@@ -25,7 +25,7 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/cogs
         name: Mode sombre
 
     # Dark mode
@@ -34,7 +34,7 @@ theme:
       primary: blue
       accent: blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/cogs
         name: Mode clair
 
 

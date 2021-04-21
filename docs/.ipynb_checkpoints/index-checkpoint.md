@@ -21,6 +21,10 @@ def foo() :
 
 - `[mkdocs.org](https://www.mkdocs.org){.md-button}` => [mkdocs.org](https://www.mkdocs.org){.md-button}
 
+- [monScript.py](python_script.py){.md-button}
+
+- [monNotebook.ipynb](Introduction-Le_BN_pour_explorer.ipynb){.md-button}
+
 
 ## Listes :
 
