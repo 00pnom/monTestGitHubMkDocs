@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - main
       
 jobs:
   deploy:
@@ -16,4 +17,3 @@ jobs:
       - run: pip install mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force
       - run: pip install mkdocs-jupyter
-      
