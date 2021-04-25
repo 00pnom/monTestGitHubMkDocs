@@ -1,8 +1,9 @@
 site_name: "Mon site avec MkDocs"
 
 nav:
-  - Accueil: index.md
-  - Notebook : Introduction-Le_BN_pour_explorer.ipynb
+  - Accueil : index.md
+  - MarkDown MkDocs : markdown.md
+  - MarkDown Jupyter : MarkDown-Le_BN_pour_rapporter.ipynb
   - Python : python_script.py
 
 
@@ -11,7 +12,8 @@ theme:
   custom_dir: overrides
   font: false
   language: fr
-  features:
+  logo: https://ericecmorlaix.github.io/img/logo.svg
+  favicon: https://ericecmorlaix.github.io/img/logo.svg
     - navigation.instant
     - navigation.tabs
     - navigation.expand
@@ -23,19 +25,19 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: purple
       toggle:
-        icon: material/cogs
+        icon: material/toggle-switch-off-outline
         name: Mode sombre
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: blue
+      primary: purple
+      accent: orange
       toggle:
-        icon: material/cogs
+        icon: material/toggle-switch
         name: Mode clair
 
 
@@ -56,7 +58,12 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: false
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format 
   - pymdownx.keys
   - pymdownx.tabbed
   - pymdownx.betterem:
@@ -66,15 +73,16 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
+      smart_dollar: false
   - toc:
-      permalink: ⚓︎
+      permalink: ⚓
       toc_depth: 3
 
 
 plugins:
   - search
   - macros
-  
+  - mermaid2
   - mkdocs-jupyter:
       kernel_name: python3
       execute: False
@@ -82,11 +90,24 @@ plugins:
 
 extra:
   social:
-    - icon: fontawesome/solid/cog
+    - icon: fontawesome/solid/paper-plane
       link: mailto:eric.madec@ecmorlaix.fr
       name: Écrire à l'auteur
+    - icon: fontawesome/brands/github
+      link: https://github.com/ericECmorlaix/monTestGitHubMkDocs
+      name: dépôt github
+    - icon: fontawesome/solid/university
+      link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
+      name: Lycée Notre Dame du Mur
+  
+  io_url: https://ericECmorlaix.github.io/monTestGitHubMkDocs
+  
+copyright:  Sous licence CC BY-NC-SA 4.0
 
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,66 +1,7 @@
-<!-- #region -->
-# Titre principal
+Mon memo pour l'utilisation de [MkDocs](https://www.mkdocs.org/), avec le theme 
+[Material pour MkDocs](https://squidfunk.github.io/mkdocs-material/) et l'environnement [Mkdocs-et](http://pageperso.lif.univ-mrs.fr/~edouard.thiel/mkdocs-et/) d'[Edouard THIEL](http://pageperso.lif.univ-mrs.fr/~edouard.thiel/)
 
-## Titre secondaire
-
-### Titre tertiaire
-
-code `du code`
-
-```python
-import toto
-
-def foo() :
-    bar = 1
-    return bar
-```
-
-## Des liens :
-
-- `[mkdocs.org](https://www.mkdocs.org)` => [mkdocs.org](https://www.mkdocs.org)
-
-- `[mkdocs.org](https://www.mkdocs.org){.md-button}` => [mkdocs.org](https://www.mkdocs.org){.md-button}
-
-- [monScript.py](python_script.py){.md-button}
-
-- [monNotebook.ipynb](Introduction-Le_BN_pour_explorer.ipynb){.md-button}
-
-
-## Listes :
-
-```mardown
-* a
-* b
-- c
-1. d
-1. e
-```
-
-* a
-* b
-- c
-1. d
-1. e
-
-
-## Annotations, citations
-
->  simple
-
-!!! info
-
-!!! done
-
-!!! abstract
-
-!!! tip
-
-!!! check
-
-!!! alert
-
-
-## Commands
+## Commandes `mkdocs` :
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
@@ -73,8 +14,9 @@ def foo() :
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-<!-- #endregion -->
 
-```python
+## Commandes `mkdocs-et` :
 
-```
+- `~$ cd mkdocs-et-1.2/` - Accéder au répertoire `mkdocs-et`.
+- `~/mkdocs-et-1.2$ ./mkdocs-et.sh serve --all -p 8001`- Démarrer le serveur embarqué sur un port différent que 8000.
+- `~/mkdocs-et-1.2$ ./mkdocs-et.sh serve --lec 2 --prw 3`- Démarrer le serveur embarqué sur le port 8000 avec filtration des pages publiées.
