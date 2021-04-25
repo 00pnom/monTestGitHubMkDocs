@@ -1,6 +1,39 @@
 Mon memo pour l'utilisation de [MkDocs](https://www.mkdocs.org/), avec le theme 
 [Material pour MkDocs](https://squidfunk.github.io/mkdocs-material/) et l'environnement [Mkdocs-et](http://pageperso.lif.univ-mrs.fr/~edouard.thiel/mkdocs-et/) d'[Edouard THIEL](http://pageperso.lif.univ-mrs.fr/~edouard.thiel/)
 
+
+## Exemples :
+- Les exemples de Franck CHAMBON :
+    - tutoriel pour MkDocs avec Material : [https://ens-fr.gitlab.io/mkdocs/](https://ens-fr.gitlab.io/mkdocs/)
+    - présentation de Python facile pour les matheux : [https://ens-fr.gitlab.io/python_maths/](https://ens-fr.gitlab.io/python_maths/)
+    - maths et algos un peu difficiles : [https://ens-fr.gitlab.io/enumeration](https://ens-fr.gitlab.io/enumeration)
+    
+- Nathalie WEIBEL :	[https://www.carnets.info/](https://www.carnets.info/)
+
+- Frédéric JUNIER 	[https://parc-nsi.github.io/premiere/](https://parc-nsi.github.io/premiere/)
+
+- Guillaume CONNAN : [https://giyom.gitlab.io/ecs1/1.2020_21/20.Espaces_probabilises_discrets/](https://giyom.gitlab.io/ecs1/1.2020_21/20.Espaces_probabilises_discrets/)
+
+
+## Ressources :
+
+- 
+-
+-
+
+## Installations :
+
+Sur iPad :
+
+- Installer iSH Shell [https://apps.apple.com/us/app/ish-shell/id1436902243](https://apps.apple.com/us/app/ish-shell/id1436902243)
+Rendre visible iSH dans fichier
+- mettre à jour AKP
+- installer python 3 :
+- installer pip (permet de gérer l'installation de module Python) : Py3-pip
+
+
+Sur PC Windows 10 :
+
 ## Commandes `mkdocs` :
 
 * `mkdocs new [dir-name]` - Create a new project.
