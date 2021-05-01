@@ -15,6 +15,8 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-macros-plugin
       - run: pip install graphviz
+      - run: pip install drawSvg
+      - run: pip install ipythonblocks
       - run: pip install mkdocs-mermaid2-plugin
       - run: pip install mkdocs-jupyter
       - run: mkdocs gh-deploy --force

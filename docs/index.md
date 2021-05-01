@@ -23,14 +23,15 @@ Mon memo pour l'utilisation de [MkDocs](https://www.mkdocs.org/), avec le theme
 
 ## Installations :
 
-Sur iPad :
 
-- Installer iSH Shell [https://apps.apple.com/us/app/ish-shell/id1436902243](https://apps.apple.com/us/app/ish-shell/id1436902243)
-Rendre visible iSH dans fichier
-- mettre à jour AKP
-- installer python 3 :
-- installer pip (permet de gérer l'installation de module Python) : Py3-pip
 
+mkdocs-et :
+
+- `~$ wget http://pageperso.lif.univ-mrs.fr/~edouard.thiel/mkdocs-et-1.2.tgz`
+- `~$ tar xvfz mkdocs-et-1.2.tgz`
+- `~$ cd mkdocs-et-1.2`
+- `~/mkdocs-et-1.2$ ./mkdocs-et.sh create-venv` ce script devrait installer dans un environnement virtuel les modules Python pour MkDocs, Material et autres Plugins ;
+> ERREUR sur iPad, il faut sans doute modifier le script...
 
 Sur PC Windows 10 :
 
