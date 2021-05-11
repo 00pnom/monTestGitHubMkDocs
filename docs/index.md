@@ -12,7 +12,12 @@ Mon memo pour l'utilisation de [MkDocs](https://www.mkdocs.org/), avec le theme
 
 - Frédéric JUNIER 	[https://parc-nsi.github.io/premiere/](https://parc-nsi.github.io/premiere/)
 
-- Guillaume CONNAN : [https://giyom.gitlab.io/ecs1/1.2020_21/20.Espaces_probabilises_discrets/](https://giyom.gitlab.io/ecs1/1.2020_21/20.Espaces_probabilises_discrets/)
+- Guillaume CONNAN :
+    - [https://giyom.gitlab.io/ecs1/2020_21/COURS/20_probas_dis_cours/](https://giyom.gitlab.io/ecs1/2020_21/COURS/20_probas_dis_cours/)
+    - [Bac à sable avec `pyodide`](https://giyom.gitlab.io/ecs1/2020_21/bac_a_sable/)
+
+- Rodrigo SCHWENCKE :
+    - [https://eskool.gitlab.io/mkhack3rs/test/](https://eskool.gitlab.io/mkhack3rs/test/)
 
 
 ## Ressources :
