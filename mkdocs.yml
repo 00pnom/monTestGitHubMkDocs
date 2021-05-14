@@ -19,8 +19,8 @@ theme:
   custom_dir: overrides
   font: false # RGPD ; pas de fonte Google
   language: fr # français
-  logo: ./images/logoIO.png
-  favicon: ./images/logoIO.png
+  logo: ./images/LogoIO.png
+  favicon: ./images/LogoIO.png
   
   features:  
     - navigation.instant
