@@ -3,8 +3,10 @@ Mon memo pour l'utilisation de [MkDocs](https://www.mkdocs.org/), avec le theme
 
 
 ## Exemples :
-- Les exemples de Franck CHAMBON :
+- Franck CHAMBON : (Un grand MERCI [@Francky](https://mooc-forums.inria.fr/moocnsi/u/francky) pour cette présentation de MkDocs sur le forum NSI)
     - tutoriel pour MkDocs avec Material : [https://ens-fr.gitlab.io/mkdocs/](https://ens-fr.gitlab.io/mkdocs/)
+    - bac à sable d'expérimentations : [https://ens-fr.gitlab.io/sandbox/](https://ens-fr.gitlab.io/sandbox/)
+    - projet minimal à cloner : [https://ens-fr.gitlab.io/experience](https://ens-fr.gitlab.io/experience)
     - présentation de Python facile pour les matheux : [https://ens-fr.gitlab.io/python_maths/](https://ens-fr.gitlab.io/python_maths/)
     - maths et algos un peu difficiles : [https://ens-fr.gitlab.io/enumeration](https://ens-fr.gitlab.io/enumeration)
     

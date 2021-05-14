@@ -1,5 +1,5 @@
 
-site_name: "Mon site avec MkDocs"
+site_name: "Mon memo pour MkDocs"
 site_url: https://ericECmorlaix.github.io/monTestGitHubMkDocs
 repo_url: https://github.com/ericECmorlaix/monTestGitHubMkDocs # Ajoute l'icone et le lien vers le dépot GitHub en haut à droite
 edit_uri: edit/main/docs/
@@ -19,8 +19,8 @@ theme:
   custom_dir: overrides
   font: false # RGPD ; pas de fonte Google
   language: fr # français
-  logo: https://ericecmorlaix.github.io/img/logo.svg
-  favicon: https://ericecmorlaix.github.io/img/logo.svg
+  logo: images/logoIO.png
+  favicon: images/logoIO.png
   
   features:  
     - navigation.instant
@@ -30,21 +30,21 @@ theme:
     - toc.integrate
     - header.autohide
 
-  palette: # Palettes de couleurs jour/nuit
+  palette: # Palettes de couleurs jour/nuit, cf : https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
     
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: orange
-      accent: purple
-      toggle:
-        icon: material/weather-sunny
-        name: Basculer en mode sombre
+    - media: "(prefers-color-scheme: light)" # Pour choisir la palette par défaut selon les préférences système de l'utilisateur
+      scheme: default # nom du thème clair
+      primary: deep purple # couleur primaire des titres, des liens, ..., à prendre dans la liste
+      accent: deep orange # couleur d'accentuation au survol des boutons, desliens, ..., à prendre dans la liste
+      toggle: # définition du bouton pour switcher de palette
+        icon: material/weather-sunny # apparence
+        name: Basculer en mode sombre # message
 
     
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: purple
-      accent: orange
+      primary: deep orange
+      accent: deep purple
       toggle:
         icon: material/weather-night
         name: Basculer en mode clair
